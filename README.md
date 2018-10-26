@@ -3,7 +3,7 @@ Simple audio recorder
 
 
 
-#License
+##License
 
 Copyright 2018 Stuart Shum
 
