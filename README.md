@@ -1,9 +1,10 @@
 # simple-recorder
-Simple audio recorder
+
+Simple web audio recorder with download button
 
 
 
-## License
+## License (MIT)
 
 Copyright 2018 Stuart Shum
 
