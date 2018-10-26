@@ -55,7 +55,10 @@
                             <button type="button" class="btn btn-default btn-lg" onclick="stopRecording(this);" disabled>
                                 <span class="glyphicon glyphicon-stop" aria-hidden="true"></span> Stop
                             </button>
-
+                            <br />
+                            <br />
+                            <canvas id="meter" height="50"></canvas>
+                            
                         </div>
                     </div>
                 </div>
@@ -83,7 +86,7 @@
 
         <footer class="footer">
             <div class="container">
-                <p>&copy; Shum 2018 | Builting using <a href="https://github.com/mattdiamond/Recorderjs">Recorderjs</a></p>
+                <p>&copy; Shum 2018 | Builting using <a href="https://github.com/mattdiamond/Recorderjs">Recorderjs</a> &amp; <a href="https://github.com/cwilso/volume-meter">Volume-meter</a> | <a href="https://github.com/sshum3/simple-recorder">Fork me on GitHub</a></p>
             </div>
         </footer>
 
@@ -92,6 +95,7 @@
 
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/volume-meter.js"></script>
         <script src="js/recorder.js"></script>
     </body>
 </html>
